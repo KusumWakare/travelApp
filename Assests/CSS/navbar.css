@@ -1,0 +1,48 @@
+.display-flex{
+    display : flex;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.nav-items{
+    text-decoration: none;
+    padding: 40 65 40 40;
+    margin-left: 25px;
+    margin-right: 0px;
+    font-size: x-large;
+    color: black;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+    
+}
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+
+.background-color{
+    background-color: bisque;
+}
+
+.body, html{
+    height: 100%;
+    margin: 0;
+}
+
+.bg_image{
+    background-image: url(../images/leh.jpg);
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo{
+    margin-left: 10px;
+    
+}
