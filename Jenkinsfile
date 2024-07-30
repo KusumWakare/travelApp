@@ -32,7 +32,7 @@ pipeline{
                     sh '''
                     git config --global user.email "kusum.wakare99@gmail.com"
                     git config --global user.name "Kusum Wakare"
-                    git clone --branch gh-pages https://yourusername:${GITHUB_TOKEN}@github.com/yourusername/yourrepository.git gh-pages
+                    git clone --branch gh-pages https://KusumWakare:${GITHUB_TOKEN}@https://github.com/KusumWakare/travelApp.git gh-pages
                     cp -r * gh-pages/
                     cd gh-pages
                     git add .
